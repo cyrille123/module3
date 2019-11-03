@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	font-size: 20px;
+	color: #000000;
+	background-color: #cee3cb;
+	font-family: cursive, sans-serif;
+}
+
+/** Header Start **/
+#header-nav {
+	background-color: #5b9c52;
+	border-radius: 0;
+	border: 0;
+	/*height: 70px;*/
+}
+.navbar-brand h1 {
+	font-family: fantasy;
+	color: #A52A2A;
+	font-size: 2em;
+	text-transform: uppercase;
+	/*font-weight: bold;*/
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list{
+	margin-top: 0px;
+	font-weight: bold; 
+	background: #5b9c52;
+	color: #951C49;
+	text-align: center;
+	margin-top: 0px;
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #A52A2A;
+}
+.divider {
+	margin: 2px;
+}
+h2 {
+	margin-top: 15px;
+ 	margin-bottom: 15px;
+  	font-size: 1.6em;
+ 	font-family: cursive;
+ 	color: #A52A2A;
+}
+#chicken-menu{
+	border: 1px solid #A52A2A;
+	background-color: #d1d1d1;
+	margin-bottom: 30px;
+}
+#chicken-text{
+	padding: 20px;
+	font-size: 0.8em;
+}
+h2{
+	font-weight: bold;
+}
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
